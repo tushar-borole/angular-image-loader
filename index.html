@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  
+  
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.8.3.js'></script>
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+    
+    
+      <script type='text/javascript' src="http://code.angularjs.org/angular-1.0.1.js"></script>
+    
+  
+  <style type='text/css'>
+    
+  </style>
+  
+</head>
+<body ng-app="myApp">
+  <div ng-controller="MyCtrl">
+    <img src="{{imgsrc}}" img-load/>
+        <img src="{{imgsrcerg}}" width="100px" height="100px" img-load/>
+</div>
+
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+
+var myApp = angular.module('myApp',[]);
+
+//myApp.directive('myDirective', function() {});
+//myApp.factory('myService', function() {});
+
+myApp.directive('imgLoad',
+		function($timeout) {
+	return {
+		restrict: 'EAC',
+		require: '?ngModel',
+		link: function($scope, element, attrs, controller) {
+			var controllerOptions, options,imageretry;
+			$timeout(function(){
+				var temp=attrs.src+"?="+new Date().getTime()
+
+				element.attr("src",temp)
+				element.bind('$destroy', function() {
+					$timeout.cancel(imageretry);
+				});
+				var retry=0
+				function check(){
+					if(retry==5){
+						element.unbind("error").attr("src","http://www.deadmau5.com/wp-content/themes/deadmau5/images/ajax-loader.gif")
+						$timeout.cancel(imageretry)
+					}else{
+						element.error(function () {
+							element.unbind("error").attr("src","http://www.deadmau5.com/wp-content/themes/deadmau5/images/ajax-loader.gif")
+							imageretry=$timeout(function(){
+								element.unbind("error").attr("src",attrs.src+"?v="+new Date().getTime())
+								check()
+							},5000);
+						});
+					}
+				}
+				check()
+			},0)
+		}
+	};
+}
+);
+
+
+function MyCtrl($scope) {
+    $scope.imgsrc = 'https://secure.gravatar.com/avatar/81fd77e9430cb29127a36f9287f69a0f';
+    //wrong src
+     $scope.imgsrcerg = 'fsdfsd'
+     
+}
+//]]>  
+
+</script>
+
+
+</body>
+
+
+</html>
+
