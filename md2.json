@@ -19,101 +19,67 @@
         {
                 "id": "c202",
                 "image": "C:/Users/lenovo/Desktop/images/build3.png",
-                "email": "leonardo_dicaprio@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "leonardo_dicaprio@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "male"
+               
         },
         {
                 "id": "c203",
                 "image": "C:/Users/lenovo/Desktop/images/build4.png",
-                "email": "john_wayne@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "john_wayne@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "male"
+               
         },
         {
                 "id": "c204",
                 "image": "C:/Users/lenovo/Desktop/images/casino.png",
-                "email": "angelina_jolie@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "angelina_jolie@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "female"
+               
         },
         {
                 "id": "c205",
                 "image": "C:/Users/lenovo/Desktop/images/chip.png",
-                "email": "dido@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "dido@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "female"
+                
         },
         {
                 "id": "c206",
-                "name": "C:/Users/lenovo/Desktop/images/night.png",
-                "email": "adele@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "image": "C:/Users/lenovo/Desktop/images/night.png",
+                "text": "adele@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "female"
         },
         {
                 "id": "c207",
                 "image": "C:/Users/lenovo/Desktop/images/water.png",
-                "email": "hugh_jackman@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "hugh_jackman@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "male"
         },
        
         {
                 "id": "c209",
                 "image": "C:/Users/lenovo/Desktop/images/build2.png",
-                "email": "clint_eastwood@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "clint_eastwood@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "male"
+                
         },
        
        
         {
                 "id": "c2012",
                 "image": "C:/Users/lenovo/Desktop/images/build3.png",
-                "email": "eminem@gmail.com",
-                "address": "xx-xx-xxxx,x - street, x - country",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+91 0000000000",
-                    "home": "00 000000",
-                    "office": "00 000000"
-                }
+                "text": "eminem@gmail.com",
+                "text2": "xx-xx-xxxx,x - street, x - country",
+                "text3" : "male"
+                
         }
     ]
 }
