@@ -2,7 +2,7 @@
     "contacts": [
         {
                 "id": "c200",
-                "image": "C:/Users/lenovo/Desktop/images/build1.png",
+                "image": "http://www.acepa.net/pictures/dullestowncrossing.jpg",
                 "text": "ravi@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
@@ -10,7 +10,7 @@
         },
         {
                 "id": "c201",
-                "image": "C:/Users/lenovo/Desktop/images/build2.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "johnny_depp@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
@@ -18,7 +18,7 @@
         },
         {
                 "id": "c202",
-                "image": "C:/Users/lenovo/Desktop/images/build3.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "leonardo_dicaprio@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
@@ -26,7 +26,7 @@
         },
         {
                 "id": "c203",
-                "image": "C:/Users/lenovo/Desktop/images/build4.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "john_wayne@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
@@ -34,7 +34,7 @@
         },
         {
                 "id": "c204",
-                "image": "C:/Users/lenovo/Desktop/images/casino.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "angelina_jolie@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "female"
@@ -42,7 +42,7 @@
         },
         {
                 "id": "c205",
-                "image": "C:/Users/lenovo/Desktop/images/chip.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "dido@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "female"
@@ -50,14 +50,14 @@
         },
         {
                 "id": "c206",
-                "image": "C:/Users/lenovo/Desktop/images/night.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "adele@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "female"
         },
         {
                 "id": "c207",
-                "image": "C:/Users/lenovo/Desktop/images/water.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "hugh_jackman@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
@@ -65,7 +65,7 @@
        
         {
                 "id": "c209",
-                "image": "C:/Users/lenovo/Desktop/images/build2.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "clint_eastwood@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
@@ -75,7 +75,7 @@
        
         {
                 "id": "c2012",
-                "image": "C:/Users/lenovo/Desktop/images/build3.png",
+                "image": "http://www.kcestructural.com/images/Office%20Building%2004-b.jpg",
                 "text": "eminem@gmail.com",
                 "text2": "xx-xx-xxxx,x - street, x - country",
                 "text3" : "male"
